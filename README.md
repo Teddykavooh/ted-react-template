@@ -4,6 +4,13 @@
 - Rename/Refactor the package name in: `package.json`
 - Rename the folder **if need be**.
 
+## Dependency updating
+- Install the npm packages updater `sudo npm install -g npm-check-updates`
+- Check update availability `ncu`
+  - **NOTE:** be in the 'package.json` parent directory.
+  - `pwd` to check the current directory.
+- Run `ncu -u` to upgrade `package.json`
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
